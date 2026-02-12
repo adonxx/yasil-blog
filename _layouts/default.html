@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="{{ '/' | relative_url }}" class="nav-logo">{{ site.title }}</a>
+            <div class="nav-menu" id="navMenu">
+                <a href="{{ '/' | relative_url }}" class="nav-link">首页</a>
+                <a href="{{ '/resources/' | relative_url }}" class="nav-link">公开资源</a>
+                <a href="{{ '/travel/' | relative_url }}" class="nav-link">行旅杂记</a>
+                <a href="{{ '/moments/' | relative_url }}" class="nav-link">岁岁年年</a>
+                <a href="{{ '/tech/' | relative_url }}" class="nav-link">技术怪谈</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 页面内容 -->
+    <main>
+        {{ content }}
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>&copy; 2025 {{ site.title }}. All rights reserved.</p>
+        <p>小红书号：3889574501</p>
+    </footer>
+
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

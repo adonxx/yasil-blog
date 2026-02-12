@@ -1,0 +1,25 @@
+# 网站配置
+title: Yasil's Blog
+description: 今天好热，但也要去享受夏天！
+baseurl: "/yasil66"
+url: "https://adonxx.github.io"
+
+# 构建设置
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# 集合配置
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/

@@ -1,0 +1,56 @@
+---
+layout: default
+title: 首页
+---
+
+<!-- 首页全屏背景区域 -->
+<section class="hero-section" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1 class="hero-title">Yasil's Blog</h1>
+        <p class="hero-subtitle">今天好热，但也要去享受夏天！</p>
+        <div class="scroll-indicator">
+            <span>向下滚动</span>
+            <svg width="24" height="24" viewBox="0 0 24 24">
+                <path d="M7 10l5 5 5-5z" fill="currentColor"/>
+            </svg>
+        </div>
+    </div>
+</section>
+
+<!-- 板块导航区域 -->
+<section class="sections-grid" id="sections">
+    <div class="container">
+        <h2 class="sections-heading">看看好东西</h2>
+        
+        <div class="grid">
+            <a href="{{ '/resources/' | relative_url }}" class="section-card">
+                <div class="card-icon">📦</div>
+                <h3>公开资源</h3>
+                <p>分享一些有用的工具和资源</p>
+            </a>
+
+            <a href="{{ '/travel/' | relative_url }}" class="section-card">
+                <div class="card-icon">✈️</div>
+                <h3>行旅杂记</h3>
+                <p>记录旅行中的点点滴滴</p>
+            </a>
+
+            <a href="{{ '/moments/' | relative_url }}" class="section-card">
+                <div class="card-icon">📅</div>
+                <h3>岁岁年年</h3>
+                <p>时光流转，岁月留痕</p>
+            </a>
+
+            <a href="{{ '/tech/' | relative_url }}" class="section-card">
+                <div class="card-icon">💻</div>
+                <h3>技术怪谈</h3>
+                <p>技术探索与奇思妙想</p>
+            </a>
+        </div>
+
+        <div class="coming-soon">
+            <span class="soon-text">Coming soon...</span>
+        </div>
+    </div>
+</section>
