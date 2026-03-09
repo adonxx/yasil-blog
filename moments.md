@@ -7,7 +7,7 @@ permalink: /moments/
 
 <div class="timeline">
     <div class="timeline-item">
-        <div class="timeline-date">2025</div>
+        <div class="timeline-date">2023</div>
         <div class="timeline-content">
             <h3>🎊 新的开始</h3>
             <p>创建了这个博客，记录生活的点滴...</p>
@@ -15,7 +15,7 @@ permalink: /moments/
     </div>
 
     <div class="timeline-item">
-        <div class="timeline-date">2025</div>
+        <div class="timeline-date">2025.2.9</div>
         <div class="timeline-content">
             <a href="{{ '/moments/yuyi/' | relative_url }}" class="moment-link">
                 <h3>雨衣</h3>

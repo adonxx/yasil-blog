@@ -7,7 +7,7 @@ permalink: /moments/yuyi/
 <div class="moment-detail">
     <div class="moment-header">
         <span class="moment-date">2025年2月</span>
-        <h1>**雨衣**</h1>
+        <h1>雨衣</h1>
     </div>
 
     <div class="moment-content poem-content">
