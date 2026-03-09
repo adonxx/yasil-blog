@@ -15,6 +15,17 @@ permalink: /moments/
     </div>
 
     <div class="timeline-item">
+        <div class="timeline-date">2025</div>
+        <div class="timeline-content">
+            <a href="{{ '/moments/yuyi/' | relative_url }}" class="moment-link">
+                <h3>雨衣</h3>
+                <p> </p>
+                <span class="read-more">阅读全文 →</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="timeline-item">
         <div class="timeline-date">Coming</div>
         <div class="timeline-content">
             <h3>✨ 更多记忆</h3>
@@ -74,9 +85,41 @@ permalink: /moments/
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
+.moment-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
 .timeline-content h3 {
     color: #1f2937;
     margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
+    font-size: 1.3rem;
+}
+
+.moment-link:hover h3 {
+    color: #6366f1;
+}
+
+.timeline-content p {
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    min-height: 1.2em;
+}
+
+.read-more {
+    color: #6366f1;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.moment-link:hover .read-more {
+    transform: translateX(5px);
+    color: #8b5cf6;
 }
 
 @media (max-width: 768px) {
